@@ -133,7 +133,7 @@ body {
 
 #modal-close {
   position: absolute;
-  top: -8px;        
+  top: 0px;        
   right: 0px;      
   width: 32px;
   height: 32px;
@@ -142,7 +142,8 @@ body {
   font-size: 14px;
   color: #64748b;
   cursor: pointer;
-  z-index: 1;      
+  z-index: 1;    
+  margin-bottom: auto;  
 }
 
 #modal-close:hover {
@@ -265,5 +266,6 @@ body {
 
 .deleteHabitButton {
   cursor: pointer;
+  background-color: red;
 
 }
